@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace UAS_PABD
 {
-    public partial class Data_Pengirim : Form
+    public partial class Data_Ekspedisi : Form
     {
-        public Data_Pengirim()
+        public Data_Ekspedisi()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
