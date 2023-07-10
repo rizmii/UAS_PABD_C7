@@ -58,6 +58,12 @@
     <Compile Include="Data_Ekspedisi.Designer.cs">
       <DependentUpon>Data_Ekspedisi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data_Kurir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data_Kurir.Designer.cs">
+      <DependentUpon>Data_Kurir.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Data_Ekspedisi.resx">
       <DependentUpon>Data_Ekspedisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Kurir.resx">
+      <DependentUpon>Data_Kurir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
