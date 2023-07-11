@@ -78,6 +78,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data_Penerima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data_Penerima.Designer.cs">
+      <DependentUpon>Data_Penerima.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Data Pengirim.resx">
       <DependentUpon>Data Pengirim.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Data_Kurir.resx">
       <DependentUpon>Data_Kurir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Penerima.resx">
+      <DependentUpon>Data_Penerima.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Data_Pengantaran.resx">
       <DependentUpon>Data_Pengantaran.cs</DependentUpon>
