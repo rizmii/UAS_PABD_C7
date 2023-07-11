@@ -76,6 +76,12 @@
     <Compile Include="Data_Pengantaran.Designer.cs">
       <DependentUpon>Data_Pengantaran.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data_Pengiriman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data_Pengiriman.Designer.cs">
+      <DependentUpon>Data_Pengiriman.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Data_Pengantaran.resx">
       <DependentUpon>Data_Pengantaran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_Pengiriman.resx">
+      <DependentUpon>Data_Pengiriman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
